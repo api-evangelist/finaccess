@@ -1,0 +1,23 @@
+# Finaccess
+
+> Finaccess México, S.A. de C.V., Sociedad Operadora de Fondos de Inversión, is an
+> independent Mexican investment-fund operator authorized by the CNBV and SHCP and
+> regulated by Banco de México. Founded in 2000 and headquartered in Mexico City, it
+> is part of Grupo Finaccess and manages the AXES family of mutual funds along with
+> distributing third-party funds. Finaccess does not publish a public developer API.
+
+## About
+- [Finaccess México](https://www.finaccess.com.mx/): Investment-fund operator homepage (AXES funds, model portfolios, rates).
+- [Grupo Finaccess](https://grupofinaccess.com/en/): Parent group — Mexico, Miami (Finaccess Advisors), and Spain (Finaccess Value).
+- [Finaccess México (group profile)](https://grupofinaccess.com/en/finaccess-mexico/): Group description of the Mexican operating company.
+
+## Content
+- [Finaccess News](https://www.finaccess.com.mx/PDF/FNews.pdf): Periodic investor newsletter (PDF).
+
+## Legal
+- [Aviso de Privacidad / Privacy Notice](https://grupofinaccess.com/en/aviso-de-privacidad/)
+- [Contacto / Contact](https://grupofinaccess.com/en/contacto/)
+
+## Notes
+- No public API, developer portal, OpenAPI, SDK, or MCP server is published by Finaccess as of 2026-07-19.
+- This is a company profile in the API Evangelist network; artifact enrichment is limited to identity and domain-security probing.

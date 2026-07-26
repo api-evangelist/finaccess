@@ -1,7 +1,15 @@
 aid: finaccess
 name: Finaccess
-description: Finaccess is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Finaccess Mexico, S.A. de C.V., Sociedad Operadora de Fondos de Inversion, is an independent
+  Mexican investment-fund operator (asset manager) authorized by the CNBV and the SHCP and regulated by
+  Banco de Mexico. Founded in 2000 and headquartered in Mexico City, it is part of Grupo Finaccess and
+  operates under the tagline "Acceso financiero para todos" (financial access for everyone). Finaccess
+  manages the AXES family of mutual funds spanning short/medium/long-term local debt (AXES CP, MP, LP),
+  domestic and international equity (AXES BMV, GLO, GSP, USA), dollar-denominated debt (AXES COB), and ESG
+  equity (AXES ESG), and it distributes third-party funds from Franklin Templeton, Santander, and
+  Scotiabank. It provides model portfolios, published rate-of-return tracking, and Morningstar-rated fund
+  evaluation for retail and institutional clients. Finaccess publishes no public developer API; this
+  profile carries company identity and domain-security enrichment only.
 url: https://raw.githubusercontent.com/api-evangelist/finaccess/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.finaccess.com.mx/public_images/logo_finaccess.png
 tags:
 - Company
+- Financial Services
+- Asset Management
+- Investment Funds
+- Mutual Funds
+- Wealth Management
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/finaccess-domain-security.yml
 - type: Website
-  url: http://www.finaccess.com.mx/
+  url: https://www.finaccess.com.mx/
+- type: PrivacyPolicy
+  url: https://grupofinaccess.com/en/aviso-de-privacidad/
+- type: Support
+  url: https://grupofinaccess.com/en/contacto/
+- type: LLMsTxt
+  url: llms/finaccess-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
