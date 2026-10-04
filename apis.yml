@@ -45,7 +45,7 @@ modified: '2026-07-19'
 image: https://www.finaccess.com.mx/public_images/logo_finaccess.png
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Asset Management
 - Investment Funds
 - Mutual Funds
@@ -59,6 +59,7 @@ tags_raw:
 - Mutual Funds
 - Wealth Management
 - Mexico
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
